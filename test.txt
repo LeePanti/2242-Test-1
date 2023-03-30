@@ -1,0 +1,24 @@
+TEST 1: 
+        Web application
+
+        must have endpoints: 
+            /
+            /greeting
+            /random 
+
+        / -> home -> display something about me. (My bio)
+        /greeting -> greeting -> display the day and the time "Right now is 1:45 PM" "Enjoy the rest of your Monday". (time and day change)
+        /random -> random -> display a random quote. using random Item in maps (in a map). 
+
+
+
+    TO BUILD A WEBSITE
+functions dealing with http methods 
+create a web server 
+multiplexer 
+
+
+    WEB SERVER
+client sends requests to server
+server sends requests to multiplexer 
+multiplexer processes requests and calls the appropriate handler 
