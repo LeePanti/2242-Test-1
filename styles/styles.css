@@ -1,9 +1,45 @@
 body {
     background-color: #333;
-    align-items: center;
-    color: antiquewhite;
+    color: whitesmoke;
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 80px;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 70px;
+}
+
+.bio {
+    font-size: large;
+    color:aliceblue;
+    text-align: center;
+    margin: 80px 100px;
+
+}
+
+.clock {
+    font-size: 11vh;
+    margin: 80px auto;
+    width: 40%;
+    text-align: center;
+    border: #729 solid 3px;;
+    padding: 0;
+    color: aqua;
+}
+
+.greeting {
+    text-align: center;
+    font-size: 3vh;
+}
+
+h2 {
+    font-size: 6vh;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.quote {
+    font-size: 4vh;
+    margin-left: 15px;
 }

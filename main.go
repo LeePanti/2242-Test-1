@@ -11,7 +11,7 @@ import (
 func home(w http.ResponseWriter, r *http.Request) {
 	html := template.Must(template.ParseFiles("static/home.html"))
 
-	bio := "My Name is Lee Edbert Panti. This is my first Website using Golang programming language."
+	bio := "My Name is Lee Edbert Panti. I am 20 years old currently enrolled in the AINT program at the University of Belize. I love learning new things and figuring out solutions to programming related problems. This is my first Website using Golang programming language."
 	html.Execute(w, bio)
 }
 
