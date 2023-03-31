@@ -16,6 +16,7 @@ func home(w http.ResponseWriter, r *http.Request) {
 
 	// data to be added to the template
 	bio := "My Name is Lee Edbert Panti. I am 20 years old currently enrolled in the AINT program at the University of Belize. I love learning new things and figuring out solutions to programming related problems. This is my first Website using Golang programming language."
+
 	html.Execute(w, bio)
 }
 
@@ -64,6 +65,7 @@ func main() {
 
 	// supply the styles folder to let the templates use the stylesheet
 	mux.Handle("/styles/", http.StripPrefix("/styles/", http.FileServer(http.Dir("./styles"))))
+	// /styles/styles.css
 
 	// create a new server
 	log.Println("Starting server on port 4000...")
